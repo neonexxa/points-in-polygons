@@ -1,0 +1,12 @@
+{
+  "name": "points-in-polygons",
+  "version": "1.0.1",
+  "description": "Detect if points in polygons",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/neonexxa/points-in-polygons",
+    "type": "git"
+  },
+  "author": "Neonexxa <firdaushishamuddin@gmail.com>",
+  "license": "MIT"
+}
