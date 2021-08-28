@@ -1,4 +1,6 @@
-# points-in-polygons
+# Points In Polygons
+
+No other dependencies, just simple Math.. 
 
 ### To install
 
@@ -14,14 +16,18 @@ npm install points-in-polygons
 ### To use
 
 1. Template
+
 ```js
+const { isInsidePolygon } = require('points-in-polygons');
 // Notes: Number of coordinates in polygon is more than 2 (and last coordinate should equal to first), max is unlimited,
 
 const polygon_point = ["lat lng","lat lng","lat lng","lat lng","lat lng"];
 const coordinates = "lat lng";
 console.log(isInsidePolygon(coordinate, polygon_point)); // true || false
 ```
+
 2. Example
+
 ```js
 const polygon_point = ["12 11","0 10","0 0","10 0","12 11"];
 const coordinates = "5 5";
