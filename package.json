@@ -1,6 +1,6 @@
 {
   "name": "points-in-polygons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Detect if points in polygons",
   "main": "index.js",
   "repository": {
